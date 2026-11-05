@@ -1,0 +1,93 @@
+<section class="oe_container">
+  <div class="oe_row oe_spaced">
+    <div class="alert alert-warning" style="border:2px solid #C2603A; padding:16px; margin-bottom:24px;">
+      <h2 class="oe_slogan" style="margin:0 0 8px 0;">This module is free. The Odoo MCP service is paid.</h2>
+      <p style="font-size:16px; margin:0;">
+        The module only helps you configure the connector. The <strong>Odoo MCP service is external</strong>
+        (run by Bancada at <a href="https://mcp-odoo.bancada.es">mcp-odoo.bancada.es</a>), it is a
+        <strong>paid service</strong> contracted on its website, and it comes with a <strong>free trial</strong>:
+        200 free calls, no card required. Plans start at 12 EUR/month (excl. VAT).
+        <a href="https://mcp-odoo.bancada.es/#precios">See plans and prices</a>.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="oe_container">
+  <div class="oe_row oe_spaced">
+    <h2 class="oe_slogan">Odoo MCP for Claude (Bancada)</h2>
+    <h3 class="oe_slogan">Ask your Odoo with Claude. This module gets you connected.</h3>
+    <p class="oe_mt32">
+      Odoo MCP is a hosted connector that lets Claude read and write your Odoo data in plain language
+      (invoices, orders, contacts, stock, CRM and any model your Odoo user can reach), always with the
+      permissions of your Odoo user. It works with Odoo 16 to 19 (Odoo Online, Odoo.sh and on-premise).
+      Authorization uses OAuth 2.0 and your Odoo API key is entered on the connector's authorization
+      page, never in the chat.
+    </p>
+  </div>
+</section>
+
+<section class="oe_container oe_dark">
+  <div class="oe_row oe_spaced">
+    <h2 class="oe_slogan">What this module does</h2>
+    <ul class="oe_mt16" style="font-size:16px;">
+      <li>Adds <strong>Settings &gt; Claude (Odoo MCP)</strong> with the connector URL to copy:
+        <code>https://mcp-odoo.bancada.es/mcp</code></li>
+      <li>Explains the three steps: create an API key in My Profile &gt; Account Security, add the connector
+        in Claude with that URL, and authorize with your Odoo URL, database and login (shown on the page).</li>
+      <li>Has a button that opens the standard Odoo dialog to create an API key, the same one as in
+        Preferences &gt; Account Security. The module never generates, reads or stores keys.</li>
+      <li>Links to the documentation, the sign-up page and the plans.</li>
+    </ul>
+    <p class="oe_mt16">
+      No external calls from the module, no telemetry, no external Python dependencies.
+      It does not connect Claude by itself: you need the Odoo MCP service.
+    </p>
+  </div>
+</section>
+
+<section class="oe_container">
+  <div class="oe_row oe_spaced">
+    <h2 class="oe_slogan">About the Odoo MCP service (external, paid, free trial)</h2>
+    <p>Pricing as published at <a href="https://mcp-odoo.bancada.es/#precios">mcp-odoo.bancada.es</a>
+      (excl. VAT, cancel any time). New companies get 200 free calls, no card required. Every time Claude
+      reads or changes something in your Odoo counts as one call.</p>
+    <table class="table table-bordered" style="max-width:720px;">
+      <thead><tr><th>Plan</th><th>Price</th><th>Calls / 30 days</th><th>Users</th></tr></thead>
+      <tbody>
+        <tr><td>Small business</td><td>12 EUR / month</td><td>300</td><td>1 active user</td></tr>
+        <tr><td>Team</td><td>29 EUR / month</td><td>2,000</td><td>up to 5 active users</td></tr>
+        <tr><td>Business</td><td>79 EUR / month</td><td>5,000</td><td>up to 15 active users</td></tr>
+        <tr><td>Custom</td><td colspan="3">Contact Bancada</td></tr>
+      </tbody>
+    </table>
+    <p>Plans and conditions may change: the website is the reference.</p>
+  </div>
+</section>
+
+<section class="oe_container oe_dark">
+  <div class="oe_row oe_spaced">
+    <h2 class="oe_slogan">Quick start</h2>
+    <ol style="font-size:16px;">
+      <li>Install this module and open <strong>Settings &gt; Claude (Odoo MCP)</strong>.</li>
+      <li>Click <em>Create an API key</em> (or go to My Profile &gt; Account Security) and copy the key.</li>
+      <li>In Claude, add a custom connector with <code>https://mcp-odoo.bancada.es/mcp</code>.</li>
+      <li>Authorize with your Odoo URL, database, login and API key. Start the free trial on
+        <a href="https://mcp-odoo.bancada.es/conectar">mcp-odoo.bancada.es</a>.</li>
+    </ol>
+    <p>
+      <a href="https://mcp-odoo.bancada.es/docs">Documentation</a> |
+      <a href="https://mcp-odoo.bancada.es/conectar">Sign up (paid service, free trial)</a> |
+      <a href="https://mcp-odoo.bancada.es/#precios">Plans and prices</a>
+    </p>
+  </div>
+</section>
+
+<section class="oe_container">
+  <div class="oe_row oe_spaced">
+    <h2 class="oe_slogan">Screenshots</h2>
+    <p><img class="img img-fluid" src="screenshot_settings.png" alt="Claude (Odoo MCP) page in Settings"/></p>
+    <p><img class="img img-fluid" src="screenshot_steps.png" alt="Standard Odoo dialog to create an API key"/></p>
+    <p style="font-size:12px;">Illustrations of the page. Odoo is a trademark of Odoo S.A.; Claude is a trademark of Anthropic. Bancada is not affiliated with either company.</p>
+  </div>
+</section>

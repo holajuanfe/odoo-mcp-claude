@@ -1,0 +1,82 @@
+# Spanish translation for bancada_mcp_claude.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Claude (Odoo MCP)"
+msgstr "Claude (Odoo MCP)"
+
+msgid "Connector URL"
+msgstr "URL del conector"
+
+msgid "Odoo URL"
+msgstr "URL de Odoo"
+
+msgid "Database"
+msgstr "Base de datos"
+
+msgid "Login"
+msgstr "Usuario (login)"
+
+msgid "Claude (Odoo MCP) setup helper"
+msgstr "Asistente de configuración de Claude (Odoo MCP)"
+
+msgid "This module is free. The Odoo MCP service is paid."
+msgstr "Este módulo es gratis. El servicio Odoo MCP es de pago."
+
+msgid "This module only helps you configure the connector. The service itself is external (run by Bancada), is contracted on its website and has a free trial: 200 free calls, no card required."
+msgstr "Este módulo solo te ayuda a configurar el conector. El servicio es externo (lo presta Bancada), se contrata en su web y tiene una prueba gratuita: 200 llamadas gratis, sin tarjeta."
+
+msgid "See plans and prices"
+msgstr "Ver planes y precios"
+
+msgid "Use Claude with your Odoo"
+msgstr "Usa Claude con tu Odoo"
+
+msgid "Odoo MCP lets Claude read and write your Odoo data in plain language, always with the permissions of your Odoo user."
+msgstr "Odoo MCP permite a Claude leer y escribir tus datos de Odoo en lenguaje natural, siempre con los permisos de tu usuario de Odoo."
+
+msgid "Step 1. Create an API key in Odoo"
+msgstr "Paso 1. Crea una clave API en Odoo"
+
+msgid "Go to My Profile > Account Security > New API Key (name it, for example, \"Claude MCP\", and choose a persistent duration if Odoo asks). Copy the key before closing the dialog. You can open the same standard Odoo dialog here."
+msgstr "Ve a Mi perfil > Seguridad de la cuenta > Nueva clave API (ponle un nombre, por ejemplo \"Claude MCP\", y elige una duración persistente si Odoo la pide). Copia la clave antes de cerrar el diálogo. Aquí puedes abrir ese mismo diálogo estándar de Odoo."
+
+msgid "Create an API key"
+msgstr "Crear una clave API"
+
+msgid "Step 2. Add the connector in Claude"
+msgstr "Paso 2. Añade el conector en Claude"
+
+msgid "In Claude, add a custom connector with the connector URL shown above. No advanced settings are needed."
+msgstr "En Claude, añade un conector personalizado con la URL del conector indicada arriba. No hacen falta ajustes avanzados."
+
+msgid "Step 3. Authorize"
+msgstr "Paso 3. Autoriza"
+
+msgid "Claude opens the Bancada authorization page. Enter the data below plus your API key. The key is entered on that page, never in the chat."
+msgstr "Claude abre la página de autorización de Bancada. Introduce los datos de abajo y tu clave API. La clave se escribe en esa página, nunca en el chat."
+
+msgid "The Odoo URL must be reachable from the internet. On Odoo Online the database name is the subdomain."
+msgstr "La URL de Odoo debe ser accesible desde internet. En Odoo Online el nombre de la base de datos es el subdominio."
+
+msgid "Links"
+msgstr "Enlaces"
+
+msgid "Documentation"
+msgstr "Documentación"
+
+msgid "Sign up for the Odoo MCP service"
+msgstr "Alta en el servicio Odoo MCP"
+
+msgid "(paid service, free trial: 200 free calls, no card required)"
+msgstr "(servicio de pago, prueba gratuita: 200 llamadas gratis, sin tarjeta)"
+
+msgid "Plans and prices"
+msgstr "Planes y precios"
+
