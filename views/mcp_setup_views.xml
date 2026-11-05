@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="bancada_mcp_setup_view_form" model="ir.ui.view">
+        <field name="name">bancada.mcp.setup.form</field>
+        <field name="model">bancada.mcp.setup</field>
+        <field name="arch" type="xml">
+            <form string="Claude (Odoo MCP)" create="0" edit="0" delete="0">
+                <sheet>
+                    <div class="alert alert-warning" role="alert">
+                        <strong>This module is free. The Odoo MCP service is paid.</strong>
+                        This module only helps you configure the connector. The service itself is external (run by Bancada), is contracted on its website and has a free trial: 200 free calls, no card required.
+                    <a href="https://mcp-odoo.bancada.es/#precios" target="_blank">See plans and prices</a>
+                    </div>
+                    <h2>Use Claude with your Odoo</h2>
+                    <p>
+                        Odoo MCP lets Claude read and write your Odoo data in plain language, always with the permissions of your Odoo user.
+                    </p>
+                    <group string="Connector URL">
+                        <field name="connector_url" widget="CopyClipboardChar"/>
+                    </group>
+                    <h3>Step 1. Create an API key in Odoo</h3>
+                    <p>
+                        Go to My Profile > Account Security >
+                        New API Key (name it, for example, "Claude MCP", and choose a persistent duration if Odoo asks). Copy the key before closing the dialog. You can open the same standard Odoo dialog here.
+                    </p>
+                    <button name="action_create_api_key" type="object" class="btn btn-primary"
+                            string="Create an API key"/>
+                    <h3 class="mt-4">Step 2. Add the connector in Claude</h3>
+                    <p>
+                        In Claude, add a custom connector with the connector URL shown above. No advanced settings are needed.
+                    </p>
+                    <h3>Step 3. Authorize</h3>
+                    <p>
+                        Claude opens the Bancada authorization page. Enter the data below plus your API key. The key is entered on that page, never in the chat.
+                    </p>
+                    <group>
+                        <field name="odoo_url" widget="CopyClipboardChar"/>
+                        <field name="database" widget="CopyClipboardChar"/>
+                        <field name="login" widget="CopyClipboardChar"/>
+                    </group>
+                    <p class="text-muted">
+                        The Odoo URL must be reachable from the internet. On Odoo Online the database name is the subdomain.
+                    </p>
+                    <h3>Links</h3>
+                    <ul>
+                        <li><a href="https://mcp-odoo.bancada.es/docs" target="_blank">Documentation</a></li>
+                        <li><a href="https://mcp-odoo.bancada.es/conectar" target="_blank">Sign up for the Odoo MCP service</a>
+                        (paid service, free trial: 200 free calls, no card required)
+                    </li>
+                        <li><a href="https://mcp-odoo.bancada.es/#precios" target="_blank">Plans and prices</a></li>
+                    </ul>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="bancada_mcp_setup_action" model="ir.actions.server">
+        <field name="name">Claude (Odoo MCP)</field>
+        <field name="model_id" ref="model_bancada_mcp_setup"/>
+        <field name="state">code</field>
+        <field name="code">action = model.action_open()</field>
+    </record>
+
+    <menuitem id="bancada_mcp_menu"
+              name="Claude (Odoo MCP)"
+              parent="base.menu_administration"
+              action="bancada_mcp_setup_action"
+              groups="base.group_system"
+              sequence="95"/>
+</odoo>
