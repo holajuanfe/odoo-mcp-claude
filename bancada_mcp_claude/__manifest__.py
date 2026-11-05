@@ -9,15 +9,15 @@ Odoo MCP for Claude (Bancada)
 =============================
 
 **This module is free. The Odoo MCP service is paid**: it is an external service
-run by Bancada, contracted at https://mcp-odoo.bancada.es, with a free trial
-(200 free calls, no card required). Plans and prices: https://mcp-odoo.bancada.es/#precios
+run by Bancada, contracted at https://mcp-odoo.bancada.es/?utm_source=odoo_apps&utm_medium=marketplace&utm_campaign=odoo_apps_listing&utm_content=manifest_description, with a free trial
+(200 free calls, no card required). Plans and prices: https://mcp-odoo.bancada.es/?utm_source=odoo_apps&utm_medium=marketplace&utm_campaign=odoo_apps_listing&utm_content=manifest_pricing#precios
 
 The module only helps you configure the connector. It adds Settings > Claude (Odoo MCP)
 with the connector URL, the three setup steps and a button that opens the standard Odoo
 dialog to create an API key. It makes no external calls, has no telemetry and stores nothing.
 """,
     "author": "Bancada",
-    "website": "https://mcp-odoo.bancada.es",
+    "website": "https://mcp-odoo.bancada.es/?utm_source=odoo_apps&utm_medium=marketplace&utm_campaign=odoo_apps_listing&utm_content=manifest_website",
     "support": "hola@bancada.es",
     "license": "LGPL-3",
     "price": 0.0,

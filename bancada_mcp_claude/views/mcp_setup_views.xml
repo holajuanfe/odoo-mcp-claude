@@ -9,7 +9,7 @@
                     <div class="alert alert-warning" role="alert">
                         <strong>This module is free. The Odoo MCP service is paid.</strong>
                         This module only helps you configure the connector. The service itself is external (run by Bancada), is contracted on its website and has a free trial: 200 free calls, no card required.
-                    <a href="https://mcp-odoo.bancada.es/#precios" target="_blank">See plans and prices</a>
+                    <a href="https://mcp-odoo.bancada.es/?utm_source=odoo_apps&amp;utm_medium=marketplace&amp;utm_campaign=odoo_apps_listing&amp;utm_content=module_settings#precios" target="_blank">See plans and prices</a>
                     </div>
                     <h2>Use Claude with your Odoo</h2>
                     <p>
@@ -43,11 +43,11 @@
                     </p>
                     <h3>Links</h3>
                     <ul>
-                        <li><a href="https://mcp-odoo.bancada.es/docs" target="_blank">Documentation</a></li>
-                        <li><a href="https://mcp-odoo.bancada.es/conectar" target="_blank">Sign up for the Odoo MCP service</a>
+                        <li><a href="https://mcp-odoo.bancada.es/docs?utm_source=odoo_apps&amp;utm_medium=marketplace&amp;utm_campaign=odoo_apps_listing&amp;utm_content=module_docs" target="_blank">Documentation</a></li>
+                        <li><a href="https://mcp-odoo.bancada.es/?utm_source=odoo_apps&amp;utm_medium=marketplace&amp;utm_campaign=odoo_apps_listing&amp;utm_content=module_signup#empezar" target="_blank">Sign up for the Odoo MCP service</a>
                         (paid service, free trial: 200 free calls, no card required)
                     </li>
-                        <li><a href="https://mcp-odoo.bancada.es/#precios" target="_blank">Plans and prices</a></li>
+                        <li><a href="https://mcp-odoo.bancada.es/?utm_source=odoo_apps&amp;utm_medium=marketplace&amp;utm_campaign=odoo_apps_listing&amp;utm_content=module_pricing#precios" target="_blank">Plans and prices</a></li>
                     </ul>
                 </sheet>
             </form>
