@@ -1,7 +1,7 @@
 # Part of Bancada. See LICENSE file for full copyright and licensing details.
 {
     "name": "Odoo MCP for Claude (Bancada)",
-    "version": "19.0.1.0.0",
+    "version": "20.0.1.0.0",
     "category": "Productivity",
     "summary": "Free helper to connect Claude to Odoo with the Odoo MCP connector (paid external service, free trial).",
     "description": """
@@ -24,7 +24,7 @@ dialog to create an API key. It makes no external calls, has no telemetry and st
     "currency": "EUR",
     "depends": ["base"],
     "data": [
-        "security/ir.model.access.csv",
+        "security/ir.access.csv",
         "views/mcp_setup_views.xml",
     ],
     "images": [
